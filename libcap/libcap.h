@@ -25,7 +25,7 @@
 
 /* include the names for the caps and a definition of __CAP_BITS */
 #include "cap_names.h"
-
+#include "include/sys/capability.h"
 #ifndef _LINUX_CAPABILITY_U32S_1
 # define _LINUX_CAPABILITY_U32S_1          1
 #endif /* ndef _LINUX_CAPABILITY_U32S */
